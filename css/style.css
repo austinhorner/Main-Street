@@ -238,7 +238,21 @@ div.panel {
   text-align: center;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+
+@media screen and (max-width:959px) and (orientation: potrait) {
+        .slideshow {
+		width:100% ;
+            }	width: 70%;
+	}
+	rightcolumn {
+		width: 30%;
+	}
+	img {
+		max-width: 100%;
+	}
+
 }
