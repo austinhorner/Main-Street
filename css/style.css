@@ -19,7 +19,7 @@
   position: center;
 }
 
-h1, h2{
+h1, h2 {
 text-align:center;
 clear:both;
 font-family:'Lato';
@@ -94,7 +94,7 @@ figure img {
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:700px) {
 	#leftcolumn {
 		width: 100%;
 	}
