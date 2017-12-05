@@ -32,6 +32,7 @@ p {
 	clear: left;
 	clear: right;
 	box-sizing: border-box;
+	font-style: italic;
 }
 
 section .row img {
@@ -134,6 +135,7 @@ figure img {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+	font-style: italic;
 }
 
 .sidenav a {
@@ -231,7 +233,7 @@ div.panel {
 }
 
 .indextxt {
-	padding: 6em 3em;
+	padding: 3em 3em;
 	text-align: center;
 	margin: 0;
 	font-family:'Lato';
