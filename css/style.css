@@ -300,3 +300,9 @@ div.panel {
 		width: 100%;
 	}
 }
+
+#slideshow {
+	max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
