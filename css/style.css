@@ -27,7 +27,7 @@ font-weight: 100;
 }
 
 p {
-	font-weight: 175;
+	font-weight: 600;
 	text-align: center;
 	clear: left;
 	clear: right;
@@ -59,18 +59,23 @@ figure img {
     top: 2em;
 	width: 70%;
 	float: left;
+	max-width: 70%;
+	max-height: 400px;
+	object-fit: cover;
 }
 
 #rightcolumn {
     top: 15%;
 	width: 30%;
 	float: left;
+	max-width: 30%; 
 }
 
 #leftcolumn, img {
 	    top: 2em;
 		margin: auto;
 		display: block;
+		max-width: 100%;
 	}
 	
 	#rightcolumn, img {
@@ -193,6 +198,7 @@ div.panel {
 }
 
 .homeshow {
+	object-fit: cover;
 	width: 70%;
     position: relative;
     margin: auto;
